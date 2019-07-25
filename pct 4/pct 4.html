@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pastrati doar 3 inputuri si afisati in al 3-lea input suma primului + celui de-al 2-lea  input </title>
+  <style>
+      input{
+        display: block;
+        padding: 20px;
+        margin-bottom: 15px;
+      }
+  
+      input.changeBgdColor{
+        background: green;
+      }
+  
+    </style>
+  
+   <script src="index pct 4.js"></script>
+</head>
+<body>
+    <form onsubmit="validate(this,event);">
+        <label>First Name:
+          <input type="text" name="fname" placeholder="Val1">
+        </label>
+    
+        <label>Last Name:
+          <input type="text" name="lname" placeholder="Val2">
+        </label>
+
+        <label>Suma:
+            <input type="text" name="bgval" placeholder="Val1 + Val2...">
+          </label>
+        
+        <input type="submit" value="Validate" class="btn" name="Register">
+      </form>
+  
+</body>
+</html>

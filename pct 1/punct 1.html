@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pastrati doar 2 inputuri si colorati ambele inputuri verzi daca valoarea din casuta 1 si din casuta 2 sunt egale</title>
+  <style>
+    input{
+      display: block;
+      padding: 20px;
+      margin-bottom: 15px;
+    }
+
+    input.changeBgdColor{
+      background: green;
+    }
+
+  </style>
+
+ <script src="index punct 1.js"></script>
+
+</head>
+<body>
+
+  <form onsubmit="validate(this,event);">
+    <label>First Name:
+      <input type="text" name="fname" placeholder="First Name">
+    </label>
+
+    <label>Last Name:
+      <input type="text" name="lname" placeholder="Last Name">
+    </label>
+    
+    <input type="submit" value="Validate" class="btn" name="Register">
+  </form>
+  
+</body>
+</html>

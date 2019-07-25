@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pastrati doar 1 input si afisati intr-un span/div in coltul dreapta jos, lungimea sirului de caractere tastat</title>
+  <style>
+      input{
+        display: block;
+        padding: 20px;
+        margin-bottom: 15px;
+        position: absolute;
+      }
+  
+      input.changeBgdColor{
+        background: green;
+      }
+
+      .char-count{
+        position: relative;
+        display: block;
+        margin-top: 60px;
+        margin-left: 170px;        
+      }
+  
+    </style>
+  
+   <script src="index pct 5.js"></script>
+</head>
+<body>
+    <form onsubmit="validate(this, event);">
+        <label>First Name:
+          <input type="text" name="fname" placeholder="Type first name">
+          <span class="char-count" name="count">0</span>
+        </label>
+
+        <input type="submit" value="Validate" class="btn" name="Register">
+
+      </form>
+  
+</body>
+</html>
